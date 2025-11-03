@@ -9,8 +9,8 @@
 
 ### popupgenerate.h & popupgenerate.cpp
 `void PopupGenerator::initializeMessages()
-{
-    m_messages = {
-
-    };
-}`
+`{
+`    m_messages = {
+`
+`    };
+`}`
