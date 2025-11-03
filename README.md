@@ -15,16 +15,17 @@
 ├── logo.ico
 └── xxx.exe（你的编译输出文件）
 ```
-然后打开你的<img width="374" height="87" alt="image" src="https://github.com/user-attachments/assets/5d312ce6-a67b-4b88-bb48-f8a0bb8a7851" />
-在终端中输入：
+**然后打开你的**<br>
+<img width="374" height="87" alt="image" src="https://github.com/user-attachments/assets/5d312ce6-a67b-4b88-bb48-f8a0bb8a7851" />
+<br>在终端中输入：
 ```
 cd 项目绝对路径
 windeployqt 你的编译输出文件.exe
 ```
 例如：
 文件路径为：
-```C:/Users/29391/Desktop/PopupGenerator/
-├── fonts/
+```
+├── C:/Users/29391/Desktop/PopupGenerator/fonts/
 │ └── XiangJiaoXingXingLingGanTi-2.ttf
 ├── logo.ico
 └── popupgenerate.exe（你的编译输出文件）
@@ -151,5 +152,5 @@ Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: de
 
 具体inno Setup的安装使用步骤请参考[CSDN博客文章：超级详细：使用Inno Setup打包可执行的exe软件，可在任何电脑中运行。](https://blog.csdn.net/goog_man/article/details/99625628)
 
-这样设置后可以让你的对象打开setup程序 一路点next 然后程序快捷方式就会出现在桌面了
+**这样设置后可以让你的对象打开setup程序 一路点next 然后程序快捷方式就会出现在桌面了**
 
