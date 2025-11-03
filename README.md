@@ -8,10 +8,13 @@
 这两个文件用于设置单个弹窗的属性 基本不用改
 
 ### popupgenerate.h & popupgenerate.cpp
+通过改这个文件里的提示词来修改弹窗随机出现的文案
 ```cpp
 void PopupGenerator::initializeMessages()
 {
     m_messages = {
-
+        "",
+        "",
+        ""
     };
-}
+}//文案自己写哦 自己对象自己写
