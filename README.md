@@ -8,9 +8,10 @@
 这两个文件用于设置单个弹窗的属性 基本不用改
 
 ### popupgenerate.h & popupgenerate.cpp
-`void PopupGenerator::initializeMessages()
-`{
-`    m_messages = {
-`
-`    };
-`}`
+```cpp
+void PopupGenerator::initializeMessages()
+{
+    m_messages = {
+
+    };
+}
