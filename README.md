@@ -4,10 +4,10 @@
 1. QT Creator 17.0.2
 2. Inno Setup Complier(用于程序打包成setup程序)
 
-`popup.h & popup.cpp`
+`popup.h & popup.cpp`<br>
 这两个文件用于设置单个弹窗的属性 基本不用改
 
-`popupgenerate.h & popupgenerate.cpp`
+`popupgenerate.h & popupgenerate.cpp`<br>
 通过改这个文件里的提示词来修改弹窗随机出现的文案
 ```cpp
 void PopupGenerator::initializeMessages()
